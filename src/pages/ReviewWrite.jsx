@@ -50,20 +50,27 @@ function ReviewWrite() {
 
   return (
     <div>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} className="mb-4">
         <input
           placeholder="제목을 입력해주세요."
           type="text"
           value={title}
           onChange={onTitleChange}
+          className="mb-2 p-1 border"
         />
         <input
           placeholder="리뷰를 작성해주세요."
           type="text"
           value={contents}
           onChange={onContentsChange}
+          className="mb-2 p-1 border"
         />
-        <button type="submit">저장</button>
+        <button
+          type="submit"
+          className="bg-blue-500 text-white px-2 py-1 rounded"
+        >
+          저장
+        </button>
       </form>
     </div>
   );

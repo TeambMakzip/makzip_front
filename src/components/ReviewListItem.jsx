@@ -49,33 +49,55 @@ function ReviewListItem({ review }) {
   };
 
   return (
-    <div>
+    <div className="p-2 border">
       {isEditing ? (
         <>
           <input
             type="text"
             value={newTitle}
             onChange={(e) => setNewTitle(e.target.value)}
+            className="mb-2 p-1 border"
           />
           <input
             type="text"
             value={newContents}
             onChange={(e) => setNewContents(e.target.value)}
+            className="mb-2 p-1 border"
           />
-          <button onClick={onUpdate}>저장</button>
-          <button onClick={() => setIsEditing(false)}>취소</button>
+          <button
+            onClick={onUpdate}
+            className="mr-2 bg-blue-500 hover:bg-blue-700 text-white px-2 py-1 rounded"
+          >
+            저장
+          </button>
+          <button
+            onClick={() => setIsEditing(false)}
+            className="bg-red-500 hover:bg-red-700 text-white px-2 py-1 rounded"
+          >
+            취소
+          </button>
         </>
       ) : (
         <>
-          <h3>
+          <h3 className="mb-2">
             {id} {title}
           </h3>
-          <h4>리뷰 내용 : {contents}</h4>
-          <button onClick={() => setIsEditing(true)}>수정</button>
-          <button onClick={onDelete}>삭제</button>
+          <h4 className="mb-2">리뷰 내용: {contents}</h4>
+          <button
+            onClick={() => setIsEditing(true)}
+            className="mr-2 bg-blue-500 hover:bg-blue-700 text-white px-2 py-1 rounded"
+          >
+            수정
+          </button>
+          <button
+            onClick={onDelete}
+            className="bg-red-500 hover:bg-red-700 text-white px-2 py-1 rounded"
+          >
+            삭제
+          </button>
         </>
       )}
-      <h5>작성일: {created_at}</h5>
+      <h5 className="mb-1">작성일: {created_at}</h5>
       <h5>수정일: {updated_at}</h5>
     </div>
   );
