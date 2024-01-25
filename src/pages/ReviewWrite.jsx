@@ -12,7 +12,7 @@ function ReviewWrite() {
     const now = new Date().toISOString();
 
     try {
-      const response = await fetch(`https://makzip-be.fly.dev/api/v1/review`, {
+      const response = await fetch(`https://makzip-tb.fly.dev/api/v1/review`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
