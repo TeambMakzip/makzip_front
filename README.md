@@ -25,12 +25,8 @@ makzip 서비스 아키텍처는 [여기](WillBe-service_architecture)에서 확
 * 디자인: ![디자인 이미지](https://github.com/TeambMakzip/makzip_front/assets/141000247/ec8db87c-1a9b-49e7-83ee-64a0ce3fc100)![image]
 
 
+* 프론트엔드:  ![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/e4afd7d5-52f6-4eec-ba3a-881d09eb07e6)(https://github.com/TeambMakzip/makzip_front/assets/141000247/a6975719-09ed-4d46-8958-e4ef5ebdf981)![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/42938158-2d62-4f88-9ab9-cb83d2cd5eb8)![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/da712315-5ea6-4efb-9eb0-6b77d99ba6f1)![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/23f04ca3-04cf-49fc-aff9-a7ea7b09a2a5)
 
-
-
-* 프론트엔드:  ![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/e4afd7d5-52f6-4eec-ba3a-881d09eb07e6)![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/a6975719-09ed-4d46-8958-e4ef5ebdf981)![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/42938158-2d62-4f88-9ab9-cb83d2cd5eb8)![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/da712315-5ea6-4efb-9eb0-6b77d99ba6f1)![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/23f04ca3-04cf-49fc-aff9-a7ea7b09a2a5)
-
-* 인프라스트럭처: (도구를 명시해주세요)
 * 개발 도구: ![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/54d7e879-bbe0-416a-904b-4b02942e2244)![image](https://github.com/TeambMakzip/makzip_front/assets/141000247/28640b01-207c-42e4-985c-8ee9329d1660)
 
 
