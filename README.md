@@ -12,8 +12,8 @@ makzip ?
 
 😎 Members
 김동욱                                백민기
-https://github.com/dong5397				    https://github.com/MkBaek0229
-Frontend		                          Backend	
+https://github.com/dong5397	      https://github.com/MkBaek0229
+Frontend		              Backend	
 
 
 프로젝트 기능 소개
